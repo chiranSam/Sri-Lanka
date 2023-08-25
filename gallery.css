@@ -1,0 +1,42 @@
+.container{
+    
+    place-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    flex-direction: row  ;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+
+.heading{
+    border-bottom: 17px solid#1781aa;
+    border-top: 17px solid #1781aa;
+    border-left: 28px solid;
+    border-right: 28px solid;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 24px;
+    background-color: rgb(14, 193, 199);
+    margin-top: 28px;
+}
+.item{
+    border: 2px solid black;
+    padding: 5px;
+}
+.footer{
+    text-align: center;
+    background-color: #1781aa;
+    padding-top: 20px;
+    border: 10px solid black;
+    height: 40px;
+    letter-spacing: 2px;
+    font-size:18px;
+}
+
+
